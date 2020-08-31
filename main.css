@@ -161,7 +161,7 @@ nav ul {
 
 /* ---------- */
 .my-intr {
-    margin-top: 10rem;
+    margin-top: 5rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 2.5rem;
@@ -173,7 +173,7 @@ nav ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: .5rem;
 }
 
 .intr h3 {
@@ -319,7 +319,7 @@ nav ul {
 /* ---------- */
 /* MEDIA QUERIES */
 /* ---------- */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     body {
         background-color: #eee4e1;
     }
@@ -333,16 +333,36 @@ nav ul {
     }
 
     .heading {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .a-container {
+        flex-direction: column;
+        /* padding: ; */
+    }
+
+    .a-photo {
+        margin-top: 4rem;
+        margin-left: 5rem;
+        width: 20rem;
     }
 
     .a-text {
-        font-size: 3rem;
+        font-size: 2.2rem;
+    }
+
+    .a-text h2 {
+        margin-top: .5rem;
+    }
+
+    .a-text p {
+        margin-top: 0;
+        text-align: center;
     }
 
     .icon-container {
-        width: 7rem;
-        height: 7rem;
+        width: 4.7rem;
+        height: 4.7rem;
     }
 
     .timeline ul {
@@ -357,7 +377,14 @@ nav ul {
         left: -2rem;
     }
 
-    /* . */
-
-
+    .cont-ul h3 {
+        margin: .5rem;
+        font-size: 1rem;
+        font-family: isi;
+        text-align: center;
+    }
+    
+    .cont-ul i {
+        font-size: 2.5rem; 
+    }
 }

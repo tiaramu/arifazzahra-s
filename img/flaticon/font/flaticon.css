@@ -20,16 +20,31 @@
     font-family: "Flaticon";
     src: url("./Flaticon.svg#Flaticon") format("svg");
   }
+
+  /* [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+  [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+    font-family: Flaticon;
+    font-size: 10px;
+    font-style: normal;
+  } */
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 106px;
-font-style: normal;
-/* margin-left: 20px; */
+  font-size: 50px;
+  font-style: normal;
 }
 
 .flaticon-ramen:before { content: "\f100"; }
 .flaticon-popcorn:before { content: "\f101"; }
 .flaticon-around:before { content: "\f102"; }
+
+/* @media screen and (max-width: 768px) {
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+    [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+      font-family: Flaticon;
+      font-size: 10px;
+      font-style: normal;
+    }
+} */
